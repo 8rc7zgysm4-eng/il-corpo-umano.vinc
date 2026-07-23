@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sistema Circolatorio — CorpoUmano</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body class="theme-circulatory">
+  <div class="container">
+    <a href="sito web.html">← Torna alla Home</a>
+    <h1>Sistema Circolatorio</h1>
+    <p>Il sistema circolatorio è il sistema di trasporto del corpo: distribuisce ossigeno, nutrienti, ormoni e cellule di difesa, mentre raccoglie anidride carbonica e prodotti di scarto da smaltire.</p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Heart_anterior_view.jpg/800px-Heart_anterior_view.jpg" alt="Diagramma reale del sistema circolatorio" style="width:100%;height:auto;border-radius:8px;margin:0.5rem 0;background:#000">
+
+    <h2>Diagramma interattivo</h2>
+    <p>Passa sopra o clicca le parti per approfondire la funzione dei principali organi e vasi.</p>
+    <div class="svg-wrap">
+      <svg viewBox="0 0 300 200" class="diagram" aria-label="Diagramma circolatorio">
+        <circle id="heartSvg" cx="150" cy="100" r="18" fill="var(--muted)" stroke="var(--accent)" data-part="Cuore"></circle>
+        <path id="artery" d="M150 100 C120 60 60 40 30 30" stroke="var(--accent)" stroke-width="6" fill="none" data-part="Arterie"></path>
+        <path id="vein" d="M150 100 C180 140 240 160 270 170" stroke="#9b4d00" stroke-width="6" fill="none" data-part="Vene"></path>
+      </svg>
+    </div>
+
+    <h2>Anatomia funzionale</h2>
+    <ul>
+      <li><strong>Cuore</strong>: pompa muscolare divisa in quattro camere; atri e ventricoli lavorano in sequenza per spingere il sangue.</li>
+      <li><strong>Arterie</strong>: trasportano sangue ricco di ossigeno ai tessuti e mantengono la pressione di circolo.</li>
+      <li><strong>Vene</strong>: riportano il sangue al cuore e aiutano il ritorno venoso grazie alla muscolatura e alle valvole.</li>
+      <li><strong>Capillari</strong>: minuscoli vasi dove avvengono gli scambi di ossigeno, nutrienti e metaboliti.</li>
+    </ul>
+
+    <h2>Meccanismi fisiologici</h2>
+    <p>La circolazione è organizzata in due circuiti: il circuito polmonare, che scambia gas tra polmoni e sangue, e il circuito sistemico, che distribuisce sangue agli organi. Il ritmo cardiaco è regolato da impulsi elettrici che originano nel nodo seno-atriale.</p>
+    <p>La pressione arteriosa dipende dalla forza di contrazione del cuore, dalla resistenza dei vasi e dal volume del sangue. Piccoli cambiamenti in questi parametri possono influenzare la perfusione dei tessuti e la funzione degli organi.</p>
+
+    <h2>Patologie e importanza clinica</h2>
+    <ul>
+      <li><strong>Ipertensione</strong>: pressione persistente elevata che aumenta il rischio di ictus, insufficienza cardiaca e danni vascolari.</li>
+      <li><strong>Aterosclerosi</strong>: accumulo di placche nelle arterie che riduce il flusso e può precipitare in ischemia o infarto.</li>
+      <li><strong>Infarto miocardico</strong>: ostruzione di un’arteria coronaria con danno del muscolo cardiaco; richiede diagnosi e trattamento immediati.</li>
+      <li><strong>Insufficienza cardiaca</strong>: il cuore non riesce più a pompare in modo efficiente, causando affaticamento, dispnea e edema.</li>
+    </ul>
+
+    <h2>Concetti chiave da ricordare</h2>
+    <ul>
+      <li>Il cuore batte in modo continuo per mantenere il flusso ematico.</li>
+      <li>Il sangue trasporta ossigeno, nutrienti, ormoni e cellule immunitarie.</li>
+      <li>Le arterie e le vene non sono solo condotti: regolano pressione, perfusione e ritorno venoso.</li>
+    </ul>
+
+    <h2>Risorse e immagini</h2>
+    <div class="gallery">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Heart_anterior_view.jpg/800px-Heart_anterior_view.jpg" alt="Cuore - vista" class="gallery-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Gray547.png/800px-Gray547.png" alt="Arterie" class="gallery-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Capillary_structure.svg/800px-Capillary_structure.svg.png" alt="Capillari" class="gallery-item">
+    </div>
+
+    <h2>Riferimenti</h2>
+    <ul class="references">
+      <li><a href="https://www.heart.org" target="_blank" rel="noopener">American Heart Association</a></li>
+      <li><a href="https://www.who.int/health-topics/cardiovascular-diseases" target="_blank" rel="noopener">WHO — Cardiovascular diseases</a></li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
