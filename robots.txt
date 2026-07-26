@@ -1,4 +1,4 @@
 user-agent: *
 alllow: /il-corpo-umano.vinc/
 
-sitemap: https://8rc7zgysm4-eng/ghithub.io/il-corpo-umano.vinc/
+sitemap: https://8rc7zgysm4-eng.ghithub.io/il-corpo-umano.vinc/
